@@ -1,0 +1,14 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "javascript.preferences.jsxAttributeCompletionStyle": "none",
+  "typescript.preferences.jsxAttributeCompletionStyle": "none",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+}
