@@ -14,6 +14,7 @@ const WallpaperModal: React.FC<WallpaperModalProps> = ({
     <Modal animationType='fade' {...props}>
       <Box flex={1}>
         <TouchBox
+          zIndex={9999}
           position='absolute'
           top={70}
           right={20}
