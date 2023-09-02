@@ -1,4 +1,4 @@
-import HomeFeatures from '@app/features/HomeFeatures';
+import HomeFeatures from '@app/features/root/HomeFeatures';
 import { RootNavigationProps } from '@app/lib/navigation/navigation.types';
 import React from 'react';
 

@@ -11,7 +11,7 @@ const theme = createTheme({
     secondary: palette.silverDark,
     danger: palette.strawberry,
     text: palette.lightGrey,
-    bodyText: palette.onyx,
+    bodyText: palette.lightGrey,
     textLight: palette.sonicSilver,
     placeholder: palette.philippineGray,
     background: palette.yankeeBlue,

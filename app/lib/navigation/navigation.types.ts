@@ -8,4 +8,5 @@ export interface RootNavigationProps<RouteName extends keyof RootRoutes> {
 
 export type RootRoutes = {
   home: undefined;
+  wallpapers: undefined;
 };
