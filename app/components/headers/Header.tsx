@@ -19,6 +19,7 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle }) => {
         <Text
           fontSize={fp(2.4)}
           lineHeight={headerIconSize}
+          color='text'
           fontFamily={getFontFamily(FontWeight.Medium)}>
           {title}
         </Text>
