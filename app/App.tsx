@@ -1,17 +1,14 @@
+import { Box, Container, Text } from '@app/components';
+import { APP_TITLE } from '@app/constants/string.constants';
 import React from 'react';
-import { Text, View } from 'react-native';
 
 const App: React.FC = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'lightgray',
-      }}>
-      <Text testID='hello'>Dev env setup</Text>
-    </View>
+    <Container safeTop headerProps={{ title: APP_TITLE }} headerShown={true}>
+      <Box flex={1} justifyContent='center' alignItems='center'>
+        <Text variant='heading1'>Theme setup</Text>
+      </Box>
+    </Container>
   );
 };
 

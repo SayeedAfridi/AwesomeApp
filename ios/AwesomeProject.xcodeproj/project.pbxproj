@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
+		0607A0E62A95080500F6A180 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0DD2A95080500F6A180 /* Inter-ExtraBold.ttf */; };
+		0607A0E72A95080500F6A180 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0DE2A95080500F6A180 /* Inter-Black.ttf */; };
+		0607A0E92A95080500F6A180 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0E02A95080500F6A180 /* Inter-Light.ttf */; };
+		0607A0EA2A95080500F6A180 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0E12A95080500F6A180 /* Inter-Bold.ttf */; };
+		0607A0EB2A95080500F6A180 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0E22A95080500F6A180 /* Inter-Regular.ttf */; };
+		0607A0EC2A95080500F6A180 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0E32A95080500F6A180 /* Inter-SemiBold.ttf */; };
+		0607A0ED2A95080500F6A180 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0E42A95080500F6A180 /* Inter-Thin.ttf */; };
+		0607A0EE2A95080500F6A180 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0607A0E52A95080500F6A180 /* Inter-Medium.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-AwesomeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AwesomeProject.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -30,6 +38,14 @@
 		00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AwesomeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeProjectTests.m; sourceTree = "<group>"; };
+		0607A0DD2A95080500F6A180 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0607A0DE2A95080500F6A180 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		0607A0E02A95080500F6A180 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		0607A0E12A95080500F6A180 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		0607A0E22A95080500F6A180 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		0607A0E32A95080500F6A180 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0607A0E42A95080500F6A180 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		0607A0E52A95080500F6A180 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AwesomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AwesomeProject/AppDelegate.mm; sourceTree = "<group>"; };
@@ -83,9 +99,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0607A0A42A9504E200F6A180 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0607A0DE2A95080500F6A180 /* Inter-Black.ttf */,
+				0607A0E12A95080500F6A180 /* Inter-Bold.ttf */,
+				0607A0DD2A95080500F6A180 /* Inter-ExtraBold.ttf */,
+				0607A0E02A95080500F6A180 /* Inter-Light.ttf */,
+				0607A0E52A95080500F6A180 /* Inter-Medium.ttf */,
+				0607A0E22A95080500F6A180 /* Inter-Regular.ttf */,
+				0607A0E32A95080500F6A180 /* Inter-SemiBold.ttf */,
+				0607A0E42A95080500F6A180 /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* AwesomeProject */ = {
 			isa = PBXGroup;
 			children = (
+				0607A0A42A9504E200F6A180 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -244,6 +276,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0607A0EC2A95080500F6A180 /* Inter-SemiBold.ttf in Resources */,
+				0607A0EA2A95080500F6A180 /* Inter-Bold.ttf in Resources */,
+				0607A0E62A95080500F6A180 /* Inter-ExtraBold.ttf in Resources */,
+				0607A0E92A95080500F6A180 /* Inter-Light.ttf in Resources */,
+				0607A0EB2A95080500F6A180 /* Inter-Regular.ttf in Resources */,
+				0607A0ED2A95080500F6A180 /* Inter-Thin.ttf in Resources */,
+				0607A0EE2A95080500F6A180 /* Inter-Medium.ttf in Resources */,
+				0607A0E72A95080500F6A180 /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,14 +634,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-DRN_FABRIC_ENABLED",
+					" ",
 				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
-					"-DRN_FABRIC_ENABLED",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -663,14 +703,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
 					"$(inherited)",
-					"-DRN_FABRIC_ENABLED",
+					" ",
 				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
-					"-DRN_FABRIC_ENABLED",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
